@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pr-br">
+	<head>
+
+		<meta charset="utf-8"/>
+		<title> Testando formulários </title>
+		
+	</head>
+
+	<body>
+		
+
+		<form action="receber_dados.php" method="POST">
+			
+			<label for="caixa1">Digite seu nome:</label>
+			<input type="text" name="caixa1">
+
+			<br><br>
+
+			<input type="radio" name="sexo" value="masculino"> Masculino
+			<br>
+			<input type="radio" name="sexo" value="feminino"> Feminino
+			<br><br>
+
+			<input type="checkbox" name="prog1" value="html">HTML
+			<br>
+			<input type="checkbox" name="prog2" value="cpp">C++
+			<br>
+			<input type="checkbox" name="prog3" value="java">java
+			<br><br>
+
+			<input type="password" name="senha"> Password
+			<br>
+			<input type="submit" value="enviar"> 
+			<br><br>
+
+			<select name="universidade">
+
+				<option value=""></option>
+				<option value="fib">FIB</option>
+				<option value="usp">USP</option>
+				<option value="unesp">UNESP</option>
+
+			</select>
+			<br><br>
+
+			<select name="universidade">
+
+				<option value="fib" >FIB</option>
+				<option value="ite" selected>ITE</option>
+				<option value="anhanguera" >ANHANGUERA</option>
+				<option value="unip" >UNIP</option>
+				<option value="unicamp">UNICAMP</option>
+				<option value="uni9" >UNI9</option>
+
+			</select>
+			<br><br>
+
+
+			<textarea rows="5" cols="50" name="obs">Digite...</textarea>
+			<br><br>
+
+			<input type="button" value="Say Hello"> JAVASCRIPT
+			<br><br>
+
+
+			<input type="button" value="???" onclick="alert('ISSO É UM BOTÃO DE ALERT');">
+			<br><br>
+
+
+			<input type="hidden" name="email" value="abc@cde.com">
+			<br>
+
+			<input type="date" name="dataNascimento"> Data de nascimento
+			<br><br><br>
+
+
+			<input type="reset" value="Limpar dados">
+
+
+
+
+
+		</form>
+
+			
+		
+		
+		
+		
+		
+		
+
+	</body>
+
+
+
+
+
+</html>
